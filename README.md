@@ -20,7 +20,9 @@ Execute o script Python: python contador_dedos.py
 
 -Explicação das Técnicas de IA Envolvidas
 O MediaPipe Hands, da Google, utiliza uma CNN pré-treinada para identificar 21 landmarks por mão em tempo real. Com essas informações de posição, o código calcula a quantidade de dedos levantados com base na geometria dos pontos.
+
 Modelo de Detector de Palma/Mão: Detecta a presença de mãos na imagem.
+
 Modelo de Estimativa de Marcos da Mão : Após a detecção, prevê a localização de 21 landmarks em 3D na mão.
 
 
