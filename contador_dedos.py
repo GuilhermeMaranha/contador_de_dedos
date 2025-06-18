@@ -6,7 +6,10 @@ mpHands = mp.solutions.hands
 hands = mpHands.Hands(max_num_hands=1)
 mpDraw = mp.solutions.drawing_utils
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) 
+if not cap.isOpened():
+    print("Não foi possível abrir a câmera.")
+    exit()
 
 while True:
     success, img = cap.read()
