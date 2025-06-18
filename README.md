@@ -7,8 +7,11 @@ O objetivo é detectar e contar os dedos de uma mão em tempo real. A aplicaçã
 
 
 -Tecnologias Utilizadas
+
 Python: Linguagem principal do desenvolvimento.
+
 OpenCV (cv2): Biblioteca para Visão Computacional, usada para captura de vídeo, processamento de frames e exibição.
+
 MediaPipe (mediapipe): Framework do Google para IA, especificamente MediaPipe Hands, que fornece os modelos de detecção de mãos e estimativa de marcos 3D.
 
 
